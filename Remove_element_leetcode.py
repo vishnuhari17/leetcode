@@ -5,10 +5,12 @@ class Solution(object):
         :type val: int
         :rtype: int
         """
+        # This approach can be used
+
         while val in nums:
             nums.remove(val)
 
-        # Or Approach given below can be used
+        # Or Approach given below can be used(Both have similar run time)
 
         """
         i = nums.count(val)
