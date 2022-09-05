@@ -1,5 +1,6 @@
 class Solution(object):
     def twoSum(self, nums, target):
+        #method of hashtable is used as runtime matters
         """
         :type nums: List[int]
         :type target: int
