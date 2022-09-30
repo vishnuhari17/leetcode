@@ -2,7 +2,6 @@ class Solution(object):
     def isPalindrome(self, x):
         if x < 0:
             return False
-
         div = 1
         while x >= div * 10:
             div *= 10
@@ -12,3 +11,4 @@ class Solution(object):
             x = (x % div) // 10
             div = div / 100
         return True
+
