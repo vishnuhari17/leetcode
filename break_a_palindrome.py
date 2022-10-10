@@ -17,7 +17,6 @@ class Solution(object):
                     palindrome = palindrome[::-1]
                     palindrome = palindrome.replace("a", "b", 1)
                     palindrome = palindrome[::-1]
-                    print(1)
                     return palindrome
 
                 else:
@@ -27,5 +26,3 @@ class Solution(object):
                             return palindrome
         else:
             return ""
-
-        return palindrome
