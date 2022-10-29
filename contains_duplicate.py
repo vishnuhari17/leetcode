@@ -4,6 +4,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: bool
         """
+
         temp = []
         for i in nums:
             if i not in temp:
