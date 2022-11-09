@@ -3,6 +3,7 @@ length = len(digits)
 value = 0
 multiplier = 10 ** (length- 1)
 i = 0
+
 while length != 0 and i != length:
     value += int(digits[i] * multiplier)
     multiplier /= 10
