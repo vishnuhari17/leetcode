@@ -5,7 +5,6 @@ class Solution(object):
         :type nums2: List[int]
         :rtype: List[int]
         """
-
         list = []
         for i in nums1:
             if i in nums2:
