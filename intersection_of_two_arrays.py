@@ -12,3 +12,4 @@ class Solution(object):
                     list.append(i)
                 nums2.remove(i)
         return list
+
