@@ -27,6 +27,7 @@ def plusMinus(arr):
     pos1=pos/length
     neg1=neg/length
     zero1=zero/length
+
     print("{:.6f}".format(pos1))
     print("{:.6f}".format(neg1))
     print("{:.6f}".format(zero1))
